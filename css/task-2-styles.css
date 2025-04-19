@@ -1,0 +1,15 @@
+.gallery {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery-list-img {
+  object-fit: cover;
+  display: block;
+  width: 360px;
+  height: 300px;
+}
